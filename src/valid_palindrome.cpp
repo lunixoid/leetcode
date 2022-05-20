@@ -1,12 +1,12 @@
 /*
  * Description: https://leetcode.com/problems/valid-palindrome
  * */
+#include "solutions.hpp"
 #include <algorithm>
 #include <functional>
 #include <iostream>
-#include <string>
 
-bool isPalindrome(std::string s) {
+bool SLN::isPalindrome(std::string s) {
   if (s.size() == 1) {
     return true;
   }
@@ -30,11 +30,4 @@ bool isPalindrome(std::string s) {
     r--;
   }
   return true;
-}
-
-int main() {
-  std::cout << isPalindrome("A man, a plan, a canal: Panama") << std::endl;
-  std::cout << isPalindrome(" ") << std::endl;
-  std::cout << isPalindrome(".,") << std::endl;
-  return 0;
 }
