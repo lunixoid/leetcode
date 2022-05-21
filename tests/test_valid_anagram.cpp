@@ -2,9 +2,7 @@
 #include <gtest/gtest.h>
 
 TEST(valid_anagram, positive) {
-    EXPECT_TRUE(SLN::isAnagram("anagram", "nagaram"));
+  EXPECT_TRUE(SLN::isAnagram("anagram", "nagaram"));
 }
 
-TEST(valid_anagram, negative) {
-    EXPECT_FALSE(SLN::isAnagram("rat", "car"));
-}
+TEST(valid_anagram, negative) { EXPECT_FALSE(SLN::isAnagram("rat", "car")); }
