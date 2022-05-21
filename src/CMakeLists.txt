@@ -2,6 +2,7 @@ project(leetcode_solutions CXX)
 
 add_library(${PROJECT_NAME} STATIC
     include/solutions.hpp
+    contains_duplicate.cpp
     valid_palindrome.cpp
     valid_parentheses.cpp
 )
