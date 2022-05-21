@@ -1,3 +1,6 @@
+/*
+ * Description: https://leetcode.com/problems/contains-duplicate
+ * */
 #include "solutions.hpp"
 #include <map>
 
