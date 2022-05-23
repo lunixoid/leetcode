@@ -8,6 +8,7 @@ add_executable(unit_tests
     test_two_sum.cpp
     test_valid_palindrome.cpp
     test_valid_parentheses.cpp
+    test_min_stack.cpp
 )
 
 target_link_libraries(unit_tests
